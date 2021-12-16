@@ -7,7 +7,7 @@ Features:
 
 -Uses only 5 MB
 
--Download apps from a custom app store with thousands of options
+-Made in Bash
 
 -Can replace your own operating system
 
