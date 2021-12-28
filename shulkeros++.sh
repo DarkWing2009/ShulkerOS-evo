@@ -1,7 +1,5 @@
 source games.sh
 
-while true
-do
 echo "
 
 
@@ -34,9 +32,11 @@ Powered by ShulkerOS++"
 sleep 3
 clear -x
 python ./Login.py
+while :
+do
 clear -x
-echo "Welcome User
-
+cowsay -f dragon-and-cow Welcome User
+echo "
 
 
 
@@ -44,23 +44,27 @@ echo "Welcome User
 2. Email
 3. App Store
 4. Internet Browser
-5. Terminal"
+5. Terminal
+6. Exit"
 read ShulkerBox
 clear -x
 case $ShulkerBox in
   1)
     game
     ;;
-  2 | 3)
+  2)
     echo "Coming Soon!"
     ;;
-
-  
+  3)
+    echo "Coming Soon!"
+    ;;
   4)
-    lynx
+    lynx https://google.com
     ;;
   5)
     bash
     ;;
+  6)
+    exit 0
 esac
 done

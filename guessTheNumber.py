@@ -17,6 +17,6 @@ try:
       print("Too high!")
     elif answer < number:
       print("Too low!")
-  print("You fail!")
+  print("You failed!")
 except ValueError as ham:
   print(ham)

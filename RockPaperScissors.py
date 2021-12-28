@@ -7,7 +7,7 @@ while quote:
   print("Hello world")
   print("How are you today?")
   answer = input()
-  if answer.lower() == "good" or answer == "okay":
+  if answer.lower() == "good" or answer.lower() == "okay":
     print("since you are feeling good, than lets play a game, ")
   else:
     print("I'm sorry to hear that, maybe a game will cheer you up, ")
