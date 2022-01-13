@@ -13,8 +13,6 @@ Features:
 
 -Built in games with hundreds of hours of gameplay
 
--Fully functing email system for on the go or at home messaging
-
 -App store sync so you can download and play your favorite games anywhere
 
 -Web browser

@@ -41,11 +41,10 @@ echo "
 
 
 1. Games
-2. Email
-3. App Store
-4. Internet Browser
-5. Terminal
-6. Exit"
+2. App Store
+3. Internet Browser
+4. Terminal
+5. Exit"
 read ShulkerBox
 clear -x
 case $ShulkerBox in
@@ -53,18 +52,17 @@ case $ShulkerBox in
     game
     ;;
   2)
-    echo "Coming Soon!"
+    echo "What app would you like?"
+    read app
+    nix-shell -p $app
     ;;
   3)
-    echo "Coming Soon!"
-    ;;
-  4)
     lynx https://google.com
     ;;
-  5)
+  4)
     bash
     ;;
-  6)
+  5)
     exit 0
 esac
 done
